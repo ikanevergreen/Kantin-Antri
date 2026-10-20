@@ -1,0 +1,41 @@
+.navbar {
+  background: var(--warna-utama);
+  color: var(--warna-putih);
+}
+
+.isi {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 6px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.link:hover {
+  background: var(--warna-utama-gelap);
+}
+
+.aktif {
+  background: var(--warna-utama-gelap);
+  font-weight: 600;
+}

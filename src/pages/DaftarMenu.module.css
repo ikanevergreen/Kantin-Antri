@@ -1,0 +1,34 @@
+.judul {
+  margin: 0 0 16px;
+  font-size: 26px;
+}
+
+.filter {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filterBtn,
+.filterAktif {
+  padding: 6px 14px;
+  border: 1px solid var(--warna-utama);
+  border-radius: 4px;
+  background: var(--warna-putih);
+  color: var(--warna-utama);
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.filterAktif {
+  background: var(--warna-utama);
+  color: var(--warna-putih);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}

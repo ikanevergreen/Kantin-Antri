@@ -1,0 +1,67 @@
+.kembali {
+  background: none;
+  border: none;
+  color: var(--warna-utama);
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.kembali:hover {
+  text-decoration: underline;
+}
+
+.kotak {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  background: var(--warna-putih);
+  border: 1px solid var(--warna-garis);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.gambar {
+  font-size: 80px;
+  min-width: 110px;
+  text-align: center;
+}
+
+.nama {
+  margin: 0;
+  font-size: 26px;
+}
+
+.info {
+  margin: 2px 0 0;
+  color: var(--warna-abu);
+  text-transform: capitalize;
+}
+
+.harga {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--warna-utama);
+}
+
+.lainnya {
+  margin-top: 24px;
+}
+
+.lainnya h2 {
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+
+.lainnya a {
+  color: var(--warna-utama);
+}
+
+@media (max-width: 560px) {
+  .kotak {
+    flex-direction: column;
+    text-align: center;
+  }
+}

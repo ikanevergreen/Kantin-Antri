@@ -1,0 +1,30 @@
+
+:root {
+  --warna-utama: #c2410c;
+  --warna-utama-gelap: #9a3412;
+  --warna-bg: #fff8f1;
+  --warna-teks: #2b2118;
+  --warna-abu: #6b5f55;
+  --warna-garis: #e7d9cb;
+  --warna-putih: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--warna-bg);
+  color: var(--warna-teks);
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
